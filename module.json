@@ -1,0 +1,13 @@
+{
+    "name": "RootAccess",
+    "alias": "rootaccess",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\RootAccess\\Providers\\RootAccessServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

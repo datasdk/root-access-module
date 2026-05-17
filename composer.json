@@ -1,0 +1,33 @@
+{
+    "name": "nwidart/rootaccess",
+    "description": "RootAccess module for Laravel 12 project",
+    "type": "library",
+    "require": {
+      
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\RootAccess\\": "",
+            "Modules\\RootAccess\\Database\\Factories\\": "database/factories/",
+            "Modules\\RootAccess\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\RootAccess\\Tests\\": "tests/"
+        }
+    }
+}
