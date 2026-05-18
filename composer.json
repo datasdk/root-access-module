@@ -1,14 +1,17 @@
 {
-    "name": "nwidart/rootaccess",
+    "name": "datasdk/rootaccess-module",
+    "type": "laravel-module",
+    "license": "proprietary",
+
     "description": "RootAccess module for Laravel 12 project",
-    "type": "library",
+
     "require": {
       
     },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Kasper L. Kristiansen",
+            "email": "info@datas.dk"
         }
     ],
     "extra": {
